@@ -1,0 +1,36 @@
+$color_1: #ff6060;
+$color_2: black;
+
+.title-404 {
+	font-size: 288px !important;
+	font-weight: 700;
+	color: $color_1;
+	padding: 0;
+	margin: 30px;
+}
+.message-404 {
+	font-size: 36px !important;
+	font-weight: 500;
+	color: $color_1;
+	padding: 0;
+	margin: 30px;
+}
+.link-404 {
+	font-size: 18px;
+	font-weight: 500;
+	color: $color_2;
+	padding: 0;
+	margin: 30px;
+}
+.div-404 {
+	text-align: center;
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+	.title-404 {
+		font-size: 150px !important;
+	}
+}
