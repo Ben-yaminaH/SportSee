@@ -35,5 +35,8 @@ $color_1: black;
 }
 
 .menu.active {
-  text-decoration: underline;
+   font-family: "Roboto", serif !important;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration:none!important;
 }
